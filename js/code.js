@@ -2,7 +2,7 @@ const enviar = document.querySelector(`#btn`) // "pegando" o input submit e colo
 
 enviar.addEventListener(`click`, function(e){   // criando um evento de click para o input submit
     
-    e.preventDefault()
+    e.preventDefault() // interromper o envio do form
 
     let bloco1 = document.querySelector(`#bloco1`).value 
     let bloco2 = document.querySelector(`#bloco2`).value      // selecionando o ID.value dele e colocando esse valor dentro de uma let
