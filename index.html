@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
+
+    <title>Calculadora Olimpíada Dobra</title>
+
+    <script src="./js/code.js" defer></script>
+</head>
+<body>
+    <aside>
+        <a href="./criterios.html" target="_blank"><img src="./img/registro.png" alt="critérios"></a>
+    </aside>
+    <main>
+        <form action="POST">
+            <h3>Calculadora - Olimpíada da Dobra</h3>
+            <section>
+                <label for="bloco1">1 a 20 (0,750 pontos cada questão)</label>
+                <input type="text" id="bloco1" name="bloco1">
+        
+            </section>
+            <section>
+                <label for="bloco2">21 a 33 (1,071 pontos cada questão)</label>
+                <input type="text" id="bloco2" name="bloco2" >
+            </section>
+            <section>
+                <label for="bloco3">Acertou a questão 34? (1,077 pontos questão)</label>
+                <input type="text" id="bloco3" name="bloco3">
+            </section>
+            <section>
+                <label for="bloco4">35 a 40 nível difícil (2,000 pontos cada questão)</label>
+                <input type="text" id="bloco4" name="bloco4">
+            </section>
+    
+            <input type="submit" value="Calcular" id="btn">
+
+            <span class="resultado"></span>
+        </form>   
+    </main>
+</body>
+</html>
