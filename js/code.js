@@ -1,9 +1,9 @@
 const enviar = document.querySelector(`#btn`)
 
-enviar.addEventListener(`click`, function(e){
+enviar.addEventListener(`click`, function (e) {
     e.preventDefault()
 
-    const pegaValor = function(valor){
+    const pegaValor = function (valor) {
         resultado = document.querySelector(valor).value
         return resultado
     }
